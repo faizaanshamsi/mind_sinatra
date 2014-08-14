@@ -3,9 +3,12 @@
   <head>
     <title>Basic HTML Page</title>
     <link rel="stylesheet" href="home.css" />
+    <script src="//www.google.com/jsapi"></script>
+    <script src="/chartkick.js"></script>
   </head>
 
   <body>
     <h1>Read Your Mind</h1>
+    <%= column_chart(@data) %>
   </body>
 </html>
